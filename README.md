@@ -7,7 +7,7 @@ UIColor extension to provide the colors specified in the Apple Watch Design Guid
 
 ## Swift
 	group.setBackgroundColor(.watchKitPlatterColor())
-	nameLabel.setTextColor(.watchKitBodyFontColor())
+	nameLabel.setTextColor(.watchKitBodyTextColor())
 	remainingTimer.setTextColor(.watchKitFootnoteTextColor())
 
 ## Objective-C
