@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# From https://github.com/github/gitignore/blob/master/Swift.gitignore
+>>>>>>> Added .gitignore, untracked UserInterfaceState
 # Xcode
 #
 build/
@@ -17,6 +21,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+<<<<<<< HEAD
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -24,3 +29,8 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 #Pods/
+=======
+# Added myself
+.DS_Store
+.Trashes
+>>>>>>> Added .gitignore, untracked UserInterfaceState
