@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Color Sample-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Color Sample" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="VES-ZH-DBt">
+                            <items>
+                                <label alignment="left" text="PlatterBody" id="gbW-29-5XC"/>
+                                <label alignment="left" text="Footnote Text" id="HqY-3V-kSc">
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="2Lw-TV-zak">
+                            <items>
+                                <group alignment="left" radius="6" id="Vh3-N4-8ky">
+                                    <items>
+                                        <label alignment="left" text="Small 1" id="GBl-xC-sYa"/>
+                                    </items>
+                                </group>
+                                <group alignment="right" radius="6" id="a7N-8W-2oq">
+                                    <items>
+                                        <label alignment="left" text="Small 2" id="UNs-YI-DHi"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="bodyLabel" destination="gbW-29-5XC" id="tlt-u4-hhu"/>
+                        <outlet property="footnoteLabel" destination="HqY-3V-kSc" id="hzj-NV-8GU"/>
+                        <outlet property="platterBodyGroup" destination="VES-ZH-DBt" id="yuU-PB-clV"/>
+                        <outlet property="smallGroup1" destination="Vh3-N4-8ky" id="oOl-dF-lyF"/>
+                        <outlet property="smallGroup2" destination="a7N-8W-2oq" id="Z5B-x6-I8D"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</document>
