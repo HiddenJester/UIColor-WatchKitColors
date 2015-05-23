@@ -7,6 +7,7 @@
 
 import UIKit
 
+// Don't need to specify @objc because this extends UIColor which is already Objective-C.
 public extension UIColor {
 	// This is just pure white, but for consistency's sake it is implemented here.
 	class func watchKitBodyTextColor() -> UIColor { return UIColor(red: 1, green: 1, blue: 1, alpha: 1) }

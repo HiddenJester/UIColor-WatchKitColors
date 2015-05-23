@@ -62,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B0B87431B10FE2D00828310 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3BF610D01B0FFF1800437305 /* UIColor+WatchKitColors Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIColor+WatchKitColors Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF610D41B0FFF1800437305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF610D51B0FFF1800437305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,6 +117,7 @@
 		3BF610C71B0FFF1800437305 = {
 			isa = PBXGroup;
 			children = (
+				3B0B87431B10FE2D00828310 /* README.md */,
 				3BF610D21B0FFF1800437305 /* UIColor+WatchKitColors Sample */,
 				3BF610EC1B0FFF1800437305 /* UIColor+WatchKitColors SampleTests */,
 				3BF610FE1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension */,
@@ -663,6 +665,7 @@
 				3BF610F51B0FFF1800437305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF610F61B0FFF1800437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +674,7 @@
 				3BF610F81B0FFF1800437305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF611171B0FFF2300437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -679,6 +683,7 @@
 				3BF611191B0FFF2300437305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF6111A1B0FFF2300437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -687,6 +692,7 @@
 				3BF6111C1B0FFF2300437305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
