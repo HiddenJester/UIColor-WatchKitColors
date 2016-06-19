@@ -7,9 +7,15 @@
 //
 
 #import "InterfaceController.h"
-#import "WatchColorsiOS/WatchColorsiOS.h"
+#import "WatchColorsiOS/WatchColorsiOS-Swift.h"
 
 @interface InterfaceController()
+
+@property (weak, nonatomic) IBOutlet WKInterfaceGroup *platterBodyGroup;
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *bodyLabel;
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *footnoteLabel;
+@property (weak, nonatomic) IBOutlet WKInterfaceGroup *smallGroup1;
+@property (weak, nonatomic) IBOutlet WKInterfaceGroup *smallGroup2;
 
 @end
 
@@ -18,6 +24,7 @@
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
+    NSLog(@"Hello?");
 
 	[_platterBodyGroup setBackgroundColor:[UIColor watchKitPlatterColor]];
 	[_bodyLabel setTextColor:[UIColor watchKitBodyTextColor]];

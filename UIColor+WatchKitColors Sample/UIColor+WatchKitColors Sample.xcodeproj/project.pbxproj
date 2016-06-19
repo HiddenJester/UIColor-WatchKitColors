@@ -7,77 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B02A4A31D1632BB00145241 /* UIColor+WatchKitColors Sample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3BF610FD1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3B02A4A61D1632BB00145241 /* UIColor+WatchKitColors Sample WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3BF611081B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App.app */; };
-		3B02A4B11D16351300145241 /* WatchColorsiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B02A4AD1D1633E800145241 /* WatchColorsiOS.framework */; };
-		3B02A4B81D1637C000145241 /* WatchColorsiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B02A4AD1D1633E800145241 /* WatchColorsiOS.framework */; };
+		3B02A4CE1D170DA100145241 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02A4CD1D170DA100145241 /* InterfaceController.m */; };
+		3B02A4D01D170DA100145241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B02A4CF1D170DA100145241 /* Assets.xcassets */; };
+		3B02A4D51D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3B02A4D41D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App.app */; };
+		3B02A4DB1D170DA200145241 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B02A4D91D170DA200145241 /* Interface.storyboard */; };
+		3B02A4DD1D170DA200145241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B02A4DC1D170DA200145241 /* Assets.xcassets */; };
+		3B02A4E11D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B02A4CA1D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B288D141D171737002D30BA /* WatchColorsiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B02A4C21D170C0000145241 /* WatchColorsiOS.framework */; };
 		3BF610D61B0FFF1800437305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF610D51B0FFF1800437305 /* main.m */; };
 		3BF610D91B0FFF1800437305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF610D81B0FFF1800437305 /* AppDelegate.m */; };
 		3BF610DC1B0FFF1800437305 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF610DB1B0FFF1800437305 /* ViewController.m */; };
 		3BF610DF1B0FFF1800437305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF610DD1B0FFF1800437305 /* Main.storyboard */; };
 		3BF610E11B0FFF1800437305 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF610E01B0FFF1800437305 /* Images.xcassets */; };
 		3BF610E41B0FFF1800437305 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF610E21B0FFF1800437305 /* LaunchScreen.xib */; };
-		3BF610F01B0FFF1800437305 /* UIColor_WatchKitColors_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF610EF1B0FFF1800437305 /* UIColor_WatchKitColors_SampleTests.m */; };
-		3BF611031B0FFF2300437305 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF611021B0FFF2300437305 /* InterfaceController.m */; };
-		3BF611051B0FFF2300437305 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF611041B0FFF2300437305 /* Images.xcassets */; };
-		3BF611111B0FFF2300437305 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF6110F1B0FFF2300437305 /* Interface.storyboard */; };
-		3BF611131B0FFF2300437305 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF611121B0FFF2300437305 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3B02A4A11D1632BB00145241 /* PBXContainerItemProxy */ = {
+		3B02A4BF1D170C0000145241 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3BF610C81B0FFF1800437305 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BF610FC1B0FFF2300437305;
-			remoteInfo = "UIColor+WatchKitColors Sample WatchKit Extension";
+			containerPortal = 3B02A4B91D170BFF00145241 /* WatchColors.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B02A4711D162C8100145241;
+			remoteInfo = WatchColors;
 		};
-		3B02A4A41D1632BB00145241 /* PBXContainerItemProxy */ = {
+		3B02A4C11D170C0000145241 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3BF610C81B0FFF1800437305 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BF611071B0FFF2300437305;
-			remoteInfo = "UIColor+WatchKitColors Sample WatchKit App";
+			containerPortal = 3B02A4B91D170BFF00145241 /* WatchColors.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B02A4851D162F7F00145241;
+			remoteInfo = WatchColorsiOS;
 		};
-		3BF610EA1B0FFF1800437305 /* PBXContainerItemProxy */ = {
+		3B02A4C31D170C0000145241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B02A4B91D170BFF00145241 /* WatchColors.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B02A48E1D162F7F00145241;
+			remoteInfo = WatchColorsiOSTests;
+		};
+		3B02A4D61D170DA200145241 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3BF610C81B0FFF1800437305 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3BF610CF1B0FFF1800437305;
-			remoteInfo = "UIColor+WatchKitColors Sample";
+			remoteGlobalIDString = 3B02A4D31D170DA200145241;
+			remoteInfo = "UIColor+WatchKitColors Sample WatchKit 1 App";
+		};
+		3B02A4DF1D170DA200145241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BF610C81B0FFF1800437305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B02A4C91D170DA100145241;
+			remoteInfo = "UIColor+WatchKitColors Sample WatchKit 1 Extension";
+		};
+		3B288D121D171731002D30BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B02A4B91D170BFF00145241 /* WatchColors.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B02A4841D162F7F00145241;
+			remoteInfo = WatchColorsiOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3B02A4A71D1632BB00145241 /* Embed App Extensions */ = {
+		3B02A4E81D170DA200145241 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3B02A4A31D1632BB00145241 /* UIColor+WatchKitColors Sample WatchKit Extension.appex in Embed App Extensions */,
+				3B02A4E11D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B02A4A81D1632BB00145241 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				3B02A4A61D1632BB00145241 /* UIColor+WatchKitColors Sample WatchKit App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3B02A4AA1D16337B00145241 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		3B02A4AB1D1633D600145241 /* Build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Build; path = Carthage/Build; sourceTree = "<group>"; };
-		3B02A4AD1D1633E800145241 /* WatchColorsiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchColorsiOS.framework; path = Carthage/Build/iOS/WatchColorsiOS.framework; sourceTree = "<group>"; };
-		3B0B87431B10FE2D00828310 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B02A4B91D170BFF00145241 /* WatchColors.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WatchColors.xcodeproj; path = ../WatchColors.xcodeproj; sourceTree = "<group>"; };
+		3B02A4CA1D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UIColor+WatchKitColors Sample WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B02A4CC1D170DA100145241 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		3B02A4CD1D170DA100145241 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		3B02A4CF1D170DA100145241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B02A4D11D170DA100145241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B02A4D41D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIColor+WatchKitColors Sample WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B02A4DA1D170DA200145241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3B02A4DC1D170DA200145241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B02A4DE1D170DA200145241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF610D01B0FFF1800437305 /* UIColor+WatchKitColors Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIColor+WatchKitColors Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF610D41B0FFF1800437305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF610D51B0FFF1800437305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,60 +102,66 @@
 		3BF610DE1B0FFF1800437305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BF610E01B0FFF1800437305 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3BF610E31B0FFF1800437305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3BF610E91B0FFF1800437305 /* UIColor+WatchKitColors SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIColor+WatchKitColors SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BF610EE1B0FFF1800437305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BF610EF1B0FFF1800437305 /* UIColor_WatchKitColors_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColor_WatchKitColors_SampleTests.m; sourceTree = "<group>"; };
-		3BF610FD1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UIColor+WatchKitColors Sample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BF611001B0FFF2300437305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BF611011B0FFF2300437305 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		3BF611021B0FFF2300437305 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		3BF611041B0FFF2300437305 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3BF611081B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIColor+WatchKitColors Sample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BF6110E1B0FFF2300437305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BF611101B0FFF2300437305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		3BF611121B0FFF2300437305 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3BF6111E1B0FFF7100437305 /* UIColor+WatchKitColors Sample WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WatchKitColors Sample WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3B02A4C71D170DA100145241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B288D141D171737002D30BA /* WatchColorsiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BF610CD1B0FFF1800437305 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B02A4B81D1637C000145241 /* WatchColorsiOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BF610E61B0FFF1800437305 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BF610FA1B0FFF2300437305 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B02A4B11D16351300145241 /* WatchColorsiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B02A4BA1D170BFF00145241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B02A4C01D170C0000145241 /* WatchColors.framework */,
+				3B02A4C21D170C0000145241 /* WatchColorsiOS.framework */,
+				3B02A4C41D170C0000145241 /* WatchColorsiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B02A4CB1D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B02A4CC1D170DA100145241 /* InterfaceController.h */,
+				3B02A4CD1D170DA100145241 /* InterfaceController.m */,
+				3B02A4CF1D170DA100145241 /* Assets.xcassets */,
+				3B02A4D11D170DA100145241 /* Info.plist */,
+			);
+			path = "UIColor+WatchKitColors Sample WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		3B02A4D81D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				3B02A4D91D170DA200145241 /* Interface.storyboard */,
+				3B02A4DC1D170DA200145241 /* Assets.xcassets */,
+				3B02A4DE1D170DA200145241 /* Info.plist */,
+			);
+			path = "UIColor+WatchKitColors Sample WatchKit 1 App";
+			sourceTree = "<group>";
+		};
 		3BF610C71B0FFF1800437305 = {
 			isa = PBXGroup;
 			children = (
-				3B02A4AD1D1633E800145241 /* WatchColorsiOS.framework */,
-				3B02A4AB1D1633D600145241 /* Build */,
-				3B02A4AA1D16337B00145241 /* Cartfile */,
-				3B0B87431B10FE2D00828310 /* README.md */,
 				3BF610D21B0FFF1800437305 /* UIColor+WatchKitColors Sample */,
-				3BF610EC1B0FFF1800437305 /* UIColor+WatchKitColors SampleTests */,
-				3BF610FE1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension */,
-				3BF6110C1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App */,
+				3B02A4CB1D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension */,
+				3B02A4D81D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App */,
 				3BF610D11B0FFF1800437305 /* Products */,
+				3B02A4B91D170BFF00145241 /* WatchColors.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,9 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				3BF610D01B0FFF1800437305 /* UIColor+WatchKitColors Sample.app */,
-				3BF610E91B0FFF1800437305 /* UIColor+WatchKitColors SampleTests.xctest */,
-				3BF610FD1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension.appex */,
-				3BF611081B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App.app */,
+				3B02A4CA1D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension.appex */,
+				3B02A4D41D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,64 +199,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3BF610EC1B0FFF1800437305 /* UIColor+WatchKitColors SampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				3BF610EF1B0FFF1800437305 /* UIColor_WatchKitColors_SampleTests.m */,
-				3BF610ED1B0FFF1800437305 /* Supporting Files */,
-			);
-			path = "UIColor+WatchKitColors SampleTests";
-			sourceTree = "<group>";
-		};
-		3BF610ED1B0FFF1800437305 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3BF610EE1B0FFF1800437305 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3BF610FE1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				3BF611011B0FFF2300437305 /* InterfaceController.h */,
-				3BF611021B0FFF2300437305 /* InterfaceController.m */,
-				3BF611041B0FFF2300437305 /* Images.xcassets */,
-				3BF610FF1B0FFF2300437305 /* Supporting Files */,
-				3BF6111E1B0FFF7100437305 /* UIColor+WatchKitColors Sample WatchKit Extension-Bridging-Header.h */,
-			);
-			path = "UIColor+WatchKitColors Sample WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		3BF610FF1B0FFF2300437305 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3BF611001B0FFF2300437305 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3BF6110C1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				3BF6110F1B0FFF2300437305 /* Interface.storyboard */,
-				3BF611121B0FFF2300437305 /* Images.xcassets */,
-				3BF6110D1B0FFF2300437305 /* Supporting Files */,
-			);
-			path = "UIColor+WatchKitColors Sample WatchKit App";
-			sourceTree = "<group>";
-		};
-		3BF6110D1B0FFF2300437305 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3BF6110E1B0FFF2300437305 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3B02A4C91D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B02A4E51D170DA200145241 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit 1 Extension" */;
+			buildPhases = (
+				3B02A4C61D170DA100145241 /* Sources */,
+				3B02A4C71D170DA100145241 /* Frameworks */,
+				3B02A4C81D170DA100145241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B288D131D171731002D30BA /* PBXTargetDependency */,
+				3B02A4D71D170DA200145241 /* PBXTargetDependency */,
+			);
+			name = "UIColor+WatchKitColors Sample WatchKit 1 Extension";
+			productName = "UIColor+WatchKitColors Sample WatchKit 1 Extension";
+			productReference = 3B02A4CA1D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3B02A4D31D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B02A4E21D170DA200145241 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit 1 App" */;
+			buildPhases = (
+				3B02A4D21D170DA200145241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor+WatchKitColors Sample WatchKit 1 App";
+			productName = "UIColor+WatchKitColors Sample WatchKit 1 App";
+			productReference = 3B02A4D41D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		3BF610CF1B0FFF1800437305 /* UIColor+WatchKitColors Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF610F31B0FFF1800437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample" */;
@@ -245,71 +243,17 @@
 				3BF610CC1B0FFF1800437305 /* Sources */,
 				3BF610CD1B0FFF1800437305 /* Frameworks */,
 				3BF610CE1B0FFF1800437305 /* Resources */,
-				3B02A4A81D1632BB00145241 /* Embed Watch Content */,
-				3B02A4A91D16331400145241 /* ShellScript */,
+				3B02A4E81D170DA200145241 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B02A4A51D1632BB00145241 /* PBXTargetDependency */,
+				3B02A4E01D170DA200145241 /* PBXTargetDependency */,
 			);
 			name = "UIColor+WatchKitColors Sample";
 			productName = "UIColor+WatchKitColors Sample";
 			productReference = 3BF610D01B0FFF1800437305 /* UIColor+WatchKitColors Sample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3BF610E81B0FFF1800437305 /* UIColor+WatchKitColors SampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BF610F61B0FFF1800437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors SampleTests" */;
-			buildPhases = (
-				3BF610E51B0FFF1800437305 /* Sources */,
-				3BF610E61B0FFF1800437305 /* Frameworks */,
-				3BF610E71B0FFF1800437305 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3BF610EB1B0FFF1800437305 /* PBXTargetDependency */,
-			);
-			name = "UIColor+WatchKitColors SampleTests";
-			productName = "UIColor+WatchKitColors SampleTests";
-			productReference = 3BF610E91B0FFF1800437305 /* UIColor+WatchKitColors SampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3BF610FC1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BF6111A1B0FFF2300437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit Extension" */;
-			buildPhases = (
-				3BF610F91B0FFF2300437305 /* Sources */,
-				3BF610FA1B0FFF2300437305 /* Frameworks */,
-				3BF610FB1B0FFF2300437305 /* Resources */,
-				3B02A4AF1D1634F400145241 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "UIColor+WatchKitColors Sample WatchKit Extension";
-			productName = "UIColor+WatchKitColors Sample WatchKit Extension";
-			productReference = 3BF610FD1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
-		3BF611071B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BF611171B0FFF2300437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit App" */;
-			buildPhases = (
-				3BF611061B0FFF2300437305 /* Resources */,
-				3B02A4A71D1632BB00145241 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B02A4A21D1632BB00145241 /* PBXTargetDependency */,
-			);
-			name = "UIColor+WatchKitColors Sample WatchKit App";
-			productName = "UIColor+WatchKitColors Sample WatchKit App";
-			productReference = 3BF611081B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
 		};
 /* End PBXNativeTarget section */
 
@@ -321,17 +265,13 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "HiddenJester Software";
 				TargetAttributes = {
+					3B02A4C91D170DA100145241 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3B02A4D31D170DA200145241 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					3BF610CF1B0FFF1800437305 = {
-						CreatedOnToolsVersion = 6.3.2;
-					};
-					3BF610E81B0FFF1800437305 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 3BF610CF1B0FFF1800437305;
-					};
-					3BF610FC1B0FFF2300437305 = {
-						CreatedOnToolsVersion = 6.3.2;
-					};
-					3BF611071B0FFF2300437305 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
@@ -347,17 +287,64 @@
 			mainGroup = 3BF610C71B0FFF1800437305;
 			productRefGroup = 3BF610D11B0FFF1800437305 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3B02A4BA1D170BFF00145241 /* Products */;
+					ProjectRef = 3B02A4B91D170BFF00145241 /* WatchColors.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3BF610CF1B0FFF1800437305 /* UIColor+WatchKitColors Sample */,
-				3BF610E81B0FFF1800437305 /* UIColor+WatchKitColors SampleTests */,
-				3BF610FC1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension */,
-				3BF611071B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App */,
+				3B02A4C91D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension */,
+				3B02A4D31D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3B02A4C01D170C0000145241 /* WatchColors.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WatchColors.framework;
+			remoteRef = 3B02A4BF1D170C0000145241 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B02A4C21D170C0000145241 /* WatchColorsiOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WatchColorsiOS.framework;
+			remoteRef = 3B02A4C11D170C0000145241 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B02A4C41D170C0000145241 /* WatchColorsiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WatchColorsiOSTests.xctest;
+			remoteRef = 3B02A4C31D170C0000145241 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
+		3B02A4C81D170DA100145241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B02A4D01D170DA100145241 /* Assets.xcassets in Resources */,
+				3B02A4D51D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B02A4D21D170DA200145241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B02A4DD1D170DA200145241 /* Assets.xcassets in Resources */,
+				3B02A4DB1D170DA200145241 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BF610CE1B0FFF1800437305 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,62 +355,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BF610E71B0FFF1800437305 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BF610FB1B0FFF2300437305 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BF611051B0FFF2300437305 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BF611061B0FFF2300437305 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BF611111B0FFF2300437305 /* Interface.storyboard in Resources */,
-				3BF611131B0FFF2300437305 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		3B02A4A91D16331400145241 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		3B02A4AF1D1634F400145241 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
+		3B02A4C61D170DA100145241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B02A4CE1D170DA100145241 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BF610CC1B0FFF1800437305 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,43 +376,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BF610E51B0FFF1800437305 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BF610F01B0FFF1800437305 /* UIColor_WatchKitColors_SampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BF610F91B0FFF2300437305 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BF611031B0FFF2300437305 /* InterfaceController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B02A4A21D1632BB00145241 /* PBXTargetDependency */ = {
+		3B02A4D71D170DA200145241 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BF610FC1B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit Extension */;
-			targetProxy = 3B02A4A11D1632BB00145241 /* PBXContainerItemProxy */;
+			target = 3B02A4D31D170DA200145241 /* UIColor+WatchKitColors Sample WatchKit 1 App */;
+			targetProxy = 3B02A4D61D170DA200145241 /* PBXContainerItemProxy */;
 		};
-		3B02A4A51D1632BB00145241 /* PBXTargetDependency */ = {
+		3B02A4E01D170DA200145241 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BF611071B0FFF2300437305 /* UIColor+WatchKitColors Sample WatchKit App */;
-			targetProxy = 3B02A4A41D1632BB00145241 /* PBXContainerItemProxy */;
+			target = 3B02A4C91D170DA100145241 /* UIColor+WatchKitColors Sample WatchKit 1 Extension */;
+			targetProxy = 3B02A4DF1D170DA200145241 /* PBXContainerItemProxy */;
 		};
-		3BF610EB1B0FFF1800437305 /* PBXTargetDependency */ = {
+		3B288D131D171731002D30BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BF610CF1B0FFF1800437305 /* UIColor+WatchKitColors Sample */;
-			targetProxy = 3BF610EA1B0FFF1800437305 /* PBXContainerItemProxy */;
+			name = WatchColorsiOS;
+			targetProxy = 3B288D121D171731002D30BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3B02A4D91D170DA200145241 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B02A4DA1D170DA200145241 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		3BF610DD1B0FFF1800437305 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -487,17 +421,73 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		3BF6110F1B0FFF2300437305 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BF611101B0FFF2300437305 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3B02A4E31D170DA200145241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IBSC_MODULE = UIColor_WatchKitColors_Sample_WatchKit_1_Extension;
+				INFOPLIST_FILE = "UIColor+WatchKitColors Sample WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.UIColor-WatchKitColors-Sample.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3B02A4E41D170DA200145241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				IBSC_MODULE = UIColor_WatchKitColors_Sample_WatchKit_1_Extension;
+				INFOPLIST_FILE = "UIColor+WatchKitColors Sample WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.UIColor-WatchKitColors-Sample.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		3B02A4E61D170DA200145241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "UIColor+WatchKitColors Sample WatchKit 1 Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.UIColor-WatchKitColors-Sample.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B02A4E71D170DA200145241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "UIColor+WatchKitColors Sample WatchKit 1 Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.UIColor-WatchKitColors-Sample.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3BF610F11B0FFF1800437305 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -517,8 +507,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -536,11 +525,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks ";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -564,7 +553,6 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -575,10 +563,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks ";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -587,10 +575,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "UIColor+WatchKitColors Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.$(PRODUCT_NAME:rfc1034identifier)";
@@ -602,10 +588,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "UIColor+WatchKitColors Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.$(PRODUCT_NAME:rfc1034identifier)";
@@ -613,122 +597,27 @@
 			};
 			name = Release;
 		};
-		3BF610F71B0FFF1800437305 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "UIColor+WatchKitColors SampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIColor+WatchKitColors Sample.app/UIColor+WatchKitColors Sample";
-			};
-			name = Debug;
-		};
-		3BF610F81B0FFF1800437305 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "UIColor+WatchKitColors SampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIColor+WatchKitColors Sample.app/UIColor+WatchKitColors Sample";
-			};
-			name = Release;
-		};
-		3BF611181B0FFF2300437305 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				IBSC_MODULE = UIColor_WatchKitColors_Sample_WatchKit_Extension;
-				INFOPLIST_FILE = "UIColor+WatchKitColors Sample WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.UIColor-WatchKitColors-Sample.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		3BF611191B0FFF2300437305 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				IBSC_MODULE = UIColor_WatchKitColors_Sample_WatchKit_Extension;
-				INFOPLIST_FILE = "UIColor+WatchKitColors Sample WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.UIColor-WatchKitColors-Sample.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		3BF6111B1B0FFF2300437305 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "UIColor+WatchKitColors Sample WatchKit Extension/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.UIColor-WatchKitColors-Sample.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "UIColor+WatchKitColors Sample WatchKit Extension/UIColor+WatchKitColors Sample WatchKit Extension-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		3BF6111C1B0FFF2300437305 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "UIColor+WatchKitColors Sample WatchKit Extension/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HiddenJester.UIColor-WatchKitColors-Sample.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "UIColor+WatchKitColors Sample WatchKit Extension/UIColor+WatchKitColors Sample WatchKit Extension-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3B02A4E21D170DA200145241 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B02A4E31D170DA200145241 /* Debug */,
+				3B02A4E41D170DA200145241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B02A4E51D170DA200145241 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B02A4E61D170DA200145241 /* Debug */,
+				3B02A4E71D170DA200145241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3BF610CB1B0FFF1800437305 /* Build configuration list for PBXProject "UIColor+WatchKitColors Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -743,33 +632,6 @@
 			buildConfigurations = (
 				3BF610F41B0FFF1800437305 /* Debug */,
 				3BF610F51B0FFF1800437305 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3BF610F61B0FFF1800437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors SampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BF610F71B0FFF1800437305 /* Debug */,
-				3BF610F81B0FFF1800437305 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3BF611171B0FFF2300437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BF611181B0FFF2300437305 /* Debug */,
-				3BF611191B0FFF2300437305 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3BF6111A1B0FFF2300437305 /* Build configuration list for PBXNativeTarget "UIColor+WatchKitColors Sample WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BF6111B1B0FFF2300437305 /* Debug */,
-				3BF6111C1B0FFF2300437305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
