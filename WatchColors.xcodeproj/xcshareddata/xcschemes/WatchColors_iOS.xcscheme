@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B02A4701D162C8100145241"
-               BuildableName = "WatchColors.framework"
-               BlueprintName = "WatchColors"
+               BlueprintIdentifier = "3B02A4841D162F7F00145241"
+               BuildableName = "WatchColors_iOS.framework"
+               BlueprintName = "WatchColors_iOS"
                ReferencedContainer = "container:WatchColors.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3B02A48D1D162F7F00145241"
+               BuildableName = "WatchColors_iOSTests.xctest"
+               BlueprintName = "WatchColors_iOSTests"
+               ReferencedContainer = "container:WatchColors.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3B02A4841D162F7F00145241"
+            BuildableName = "WatchColors_iOS.framework"
+            BlueprintName = "WatchColors_iOS"
+            ReferencedContainer = "container:WatchColors.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B02A4701D162C8100145241"
-            BuildableName = "WatchColors.framework"
-            BlueprintName = "WatchColors"
+            BlueprintIdentifier = "3B02A4841D162F7F00145241"
+            BuildableName = "WatchColors_iOS.framework"
+            BlueprintName = "WatchColors_iOS"
             ReferencedContainer = "container:WatchColors.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B02A4701D162C8100145241"
-            BuildableName = "WatchColors.framework"
-            BlueprintName = "WatchColors"
+            BlueprintIdentifier = "3B02A4841D162F7F00145241"
+            BuildableName = "WatchColors_iOS.framework"
+            BlueprintName = "WatchColors_iOS"
             ReferencedContainer = "container:WatchColors.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

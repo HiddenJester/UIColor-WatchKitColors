@@ -7,7 +7,12 @@
 //
 
 #import "InterfaceController.h"
-#import "WatchColorsiOS/WatchColorsiOS-Swift.h"
+
+#if TARGET_OS_IOS
+    #import "WatchColors_iOS/WatchColors_iOS-Swift.h"
+#elif TARGET_OS_WATCH
+    #import "WatchColors_watchOS/WatchColors_watchOS-Swift.h"
+#endif
 
 @interface InterfaceController()
 
@@ -24,7 +29,11 @@
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
-    NSLog(@"Hello?");
+#if TARGET_OS_IOS
+    NSLog(@"WatchOS 1 extension is running on the phone.");
+#elif TARGET_OS_WATCH
+    NSLog(@"WatchOS 2 extension is running on the watch.");
+#endif
 
 	[_platterBodyGroup setBackgroundColor:[UIColor watchKitPlatterColor]];
 	[_bodyLabel setTextColor:[UIColor watchKitBodyTextColor]];
