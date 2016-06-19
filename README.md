@@ -1,4 +1,6 @@
 # UIColor-WatchKitColors
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 UIColor extension to provide the colors specified in the Apple Watch Design Guides at https://developer.apple.com/watch/human-interface-guidelines/resources/
 
 ![Sample Image](UIColor%2BWatchKitColors%20Sample/UIColor%2BWatchKitColors%20Sample.png)
