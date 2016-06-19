@@ -7,7 +7,7 @@
 //
 
 #import "InterfaceController.h"
-#import "UIColor_WatchKitColors_Sample_WatchKit_Extension-Swift.h"
+#import "WatchColorsiOS/WatchColorsiOS.h"
 
 @interface InterfaceController()
 

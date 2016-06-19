@@ -34,3 +34,4 @@ DerivedData
 .DS_Store
 .Trashes
 >>>>>>> Added .gitignore, untracked UserInterfaceState
+UIColor+WatchKitColors Sample/Carthage
