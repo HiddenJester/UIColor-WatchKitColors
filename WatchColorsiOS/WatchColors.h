@@ -14,5 +14,8 @@ FOUNDATION_EXPORT double WatchColorsiOSVersionNumber;
 //! Project version string for WatchColorsiOS.
 FOUNDATION_EXPORT const unsigned char WatchColorsiOSVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <WatchColorsiOS/PublicHeader.h>
-
+#if TARGET_OS_IOS
+#import <WatchColors_iOS/WatchColors_iOS-Swift.h>
+#elif TARGET_OS_WATCH
+#import <WatchColors_watchOS/WatchColors_watchOS-Swift.h>
+#endif

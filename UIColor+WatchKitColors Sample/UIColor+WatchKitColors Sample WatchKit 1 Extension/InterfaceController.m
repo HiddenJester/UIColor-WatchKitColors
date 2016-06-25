@@ -9,9 +9,9 @@
 #import "InterfaceController.h"
 
 #if TARGET_OS_IOS
-    #import "WatchColors_iOS/WatchColors_iOS-Swift.h"
+    #import <WatchColors_iOS/WatchColors.h>
 #elif TARGET_OS_WATCH
-    #import "WatchColors_watchOS/WatchColors_watchOS-Swift.h"
+    #import <WatchColors_watchOS/WatchColors.h>
 #endif
 
 @interface InterfaceController()
