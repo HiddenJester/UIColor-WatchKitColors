@@ -9,13 +9,9 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for WatchColorsiOS.
-FOUNDATION_EXPORT double WatchColorsiOSVersionNumber;
+FOUNDATION_EXPORT double WatchColorsVersionNumber;
 
 //! Project version string for WatchColorsiOS.
-FOUNDATION_EXPORT const unsigned char WatchColorsiOSVersionString[];
+FOUNDATION_EXPORT const unsigned char WatchColorsVersionString[];
 
-#if TARGET_OS_IOS
-#import <WatchColors_iOS/WatchColors_iOS-Swift.h>
-#elif TARGET_OS_WATCH
-#import <WatchColors_watchOS/WatchColors_watchOS-Swift.h>
-#endif
+// The Swift include happens automatically during the module building. Strange but true.

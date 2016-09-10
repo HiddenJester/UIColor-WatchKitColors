@@ -1,0 +1,4 @@
+framework module WatchColors_watchOS {
+umbrella header "WatchColors.h"
+
+}
