@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="768" identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <scenes>
+        <!--Color Sample-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Color Sample" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitColorsExample_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="39.5" alignment="left" layout="vertical" id="VES-ZH-DBt">
+                            <items>
+                                <label alignment="left" text="PlatterBody" id="gbW-29-5XC"/>
+                                <label alignment="left" text="Footnote Text" id="HqY-3V-kSc">
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="2Lw-TV-zak">
+                            <items>
+                                <group alignment="left" radius="6" id="Vh3-N4-8ky">
+                                    <items>
+                                        <label alignment="left" text="Small 1" id="GBl-xC-sYa"/>
+                                    </items>
+                                </group>
+                                <group alignment="right" radius="6" id="a7N-8W-2oq">
+                                    <items>
+                                        <label alignment="left" text="Small 2" id="UNs-YI-DHi"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="bodyLabel" destination="gbW-29-5XC" id="cTw-eP-RBs"/>
+                        <outlet property="footnoteLabel" destination="HqY-3V-kSc" id="LzO-wE-nFu"/>
+                        <outlet property="platterBodyGroup" destination="VES-ZH-DBt" id="nAr-7c-HjF"/>
+                        <outlet property="smallGroup1" destination="Vh3-N4-8ky" id="usi-a2-htL"/>
+                        <outlet property="smallGroup2" destination="a7N-8W-2oq" id="dwp-tY-qaf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="442" y="645"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

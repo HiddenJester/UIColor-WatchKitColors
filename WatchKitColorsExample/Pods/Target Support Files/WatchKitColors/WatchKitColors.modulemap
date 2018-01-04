@@ -1,0 +1,6 @@
+framework module WatchKitColors {
+  umbrella header "WatchKitColors-umbrella.h"
+
+  export *
+  module * { export * }
+}

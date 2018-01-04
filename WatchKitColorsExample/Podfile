@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'WatchKitColorsExample' do
+  use_frameworks!
+
+  # When I'm testing new versions of the library, use a local podspec
+  pod 'WatchKitColors', :path => '~/code/HJS/HJSKit/HJSUtils_Support/UIColor-WatchKitColors'
+  # Here's the "normal" podspec.
+  # pod 'WatchKitColors', :git => 'https://github.com/HiddenJester/UIColor-WatchKitColors.git'
+end

@@ -1,4 +1,0 @@
-framework module WatchColors_iOS {
-umbrella header "WatchColors.h"
-
-}
