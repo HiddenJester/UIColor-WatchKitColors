@@ -5,7 +5,7 @@ UIColor extension to provide the colors specified in the Apple Watch Design Guid
 
 ![Sample Image](UIColor%2BWatchKitColors%20Sample.png)
 
-#Usage
+# Usage
 
 ## Swift
 	platterBodyGroup.setBackgroundColor(.watchKitPlatterColor)
