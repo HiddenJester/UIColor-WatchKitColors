@@ -3,7 +3,7 @@
 
 UIColor extension to provide the colors specified in the Apple Watch Design Guides at https://developer.apple.com/watch/human-interface-guidelines/resources/
 
-![Sample Image](UIColor%2BWatchKitColors%20Sample/UIColor%2BWatchKitColors%20Sample.png)
+![Sample Image](UIColor%2BWatchKitColors%20Sample.png)
 
 #Usage
 
