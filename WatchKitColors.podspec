@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.license      = 'MIT'
   s.author       = { "Timothy Sanders" => "tsanders@hiddenjester.com" }
-  s.platforms    = { :ios => '9.0', :watchos => '2.0'}
+  s.platforms    = { :watchos => '2.0'}
   s.source       = { :git => "https://github.com/HiddenJester/UIColor-WatchKitColors.git", :tag => "1.3.2" }
   s.source_files  = 'WatchKitColors/*.{h,swift}'
 

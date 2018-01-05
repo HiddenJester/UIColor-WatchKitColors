@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BE75C781FFE0C7A009B3DC2 /* WatchKitColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE75C731FFE0C4E009B3DC2 /* WatchKitColors.framework */; };
 		3BF8D3671FFD7BAE005AB24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D3661FFD7BAE005AB24E /* AppDelegate.swift */; };
 		3BF8D3691FFD7BAE005AB24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D3681FFD7BAE005AB24E /* ViewController.swift */; };
 		3BF8D36C1FFD7BAE005AB24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8D36A1FFD7BAE005AB24E /* Main.storyboard */; };
@@ -20,23 +19,10 @@
 		3BF8D38A1FFD7BAE005AB24E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D3891FFD7BAE005AB24E /* InterfaceController.swift */; };
 		3BF8D38C1FFD7BAE005AB24E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D38B1FFD7BAE005AB24E /* ExtensionDelegate.swift */; };
 		3BF8D38E1FFD7BAE005AB24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8D38D1FFD7BAE005AB24E /* Assets.xcassets */; };
+		A3730DEE470AEFF4CCB28467 /* Pods_WatchKitColorsExample_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4152823D4C06D2C596A5D62 /* Pods_WatchKitColorsExample_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3BE75C721FFE0C4E009B3DC2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BE75C6E1FFE0C4E009B3DC2 /* WatchKitColors.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B1CC13E1FFE0565004C53B4;
-			remoteInfo = WatchKitColors;
-		};
-		3BE75C751FFE0C74009B3DC2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BE75C6E1FFE0C4E009B3DC2 /* WatchKitColors.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B1CC13D1FFE0565004C53B4;
-			remoteInfo = WatchKitColors;
-		};
 		3BF8D3771FFD7BAE005AB24E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3BF8D35B1FFD7BAD005AB24E /* Project object */;
@@ -79,7 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3BE75C6E1FFE0C4E009B3DC2 /* WatchKitColors.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WatchKitColors.xcodeproj; path = ../WatchKitColors.xcodeproj; sourceTree = "<group>"; };
+		0B17DD62DE708BB8AF672D30 /* Pods-WatchKitColorsExample WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchKitColorsExample WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchKitColorsExample WatchKit Extension/Pods-WatchKitColorsExample WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		3BF8D3631FFD7BAD005AB24E /* WatchKitColorsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitColorsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF8D3661FFD7BAE005AB24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BF8D3681FFD7BAE005AB24E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +82,9 @@
 		3BF8D38B1FFD7BAE005AB24E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		3BF8D38D1FFD7BAE005AB24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BF8D38F1FFD7BAE005AB24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970ABE153109CB5F99C45601 /* Pods_WatchKitColorsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchKitColorsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4152823D4C06D2C596A5D62 /* Pods_WatchKitColorsExample_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchKitColorsExample_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFD4BE022AAF455448670CE /* Pods-WatchKitColorsExample WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchKitColorsExample WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchKitColorsExample WatchKit Extension/Pods-WatchKitColorsExample WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE75C781FFE0C7A009B3DC2 /* WatchKitColors.framework in Frameworks */,
+				A3730DEE470AEFF4CCB28467 /* Pods_WatchKitColorsExample_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,23 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BE75C6F1FFE0C4E009B3DC2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3BE75C731FFE0C4E009B3DC2 /* WatchKitColors.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3BF8D35A1FFD7BAD005AB24E = {
 			isa = PBXGroup;
 			children = (
-				3BE75C6E1FFE0C4E009B3DC2 /* WatchKitColors.xcodeproj */,
 				3BF8D3651FFD7BAD005AB24E /* WatchKitColorsExample */,
 				3BF8D3791FFD7BAE005AB24E /* WatchKitColorsExample WatchKit App */,
 				3BF8D3881FFD7BAE005AB24E /* WatchKitColorsExample WatchKit Extension */,
 				3BF8D3641FFD7BAD005AB24E /* Products */,
 				4B59EB96B390F234417CF114 /* Frameworks */,
+				CB67B74CEA81B012B3366616 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,8 +172,19 @@
 		4B59EB96B390F234417CF114 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				970ABE153109CB5F99C45601 /* Pods_WatchKitColorsExample.framework */,
+				B4152823D4C06D2C596A5D62 /* Pods_WatchKitColorsExample_WatchKit_Extension.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB67B74CEA81B012B3366616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAFD4BE022AAF455448670CE /* Pods-WatchKitColorsExample WatchKit Extension.debug.xcconfig */,
+				0B17DD62DE708BB8AF672D30 /* Pods-WatchKitColorsExample WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,14 +231,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF8D3921FFD7BAE005AB24E /* Build configuration list for PBXNativeTarget "WatchKitColorsExample WatchKit Extension" */;
 			buildPhases = (
+				E9CBCC605B9E70803EFBDFE1 /* [CP] Check Pods Manifest.lock */,
 				3BF8D3801FFD7BAE005AB24E /* Sources */,
 				3BF8D3811FFD7BAE005AB24E /* Frameworks */,
 				3BF8D3821FFD7BAE005AB24E /* Resources */,
+				3C86F08301D0A7C8273F9E6B /* [CP] Embed Pods Frameworks */,
+				385246D16E76E296D05B4A1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3BE75C761FFE0C74009B3DC2 /* PBXTargetDependency */,
 			);
 			name = "WatchKitColorsExample WatchKit Extension";
 			productName = "WatchKitColorsExample WatchKit Extension";
@@ -288,12 +282,6 @@
 			mainGroup = 3BF8D35A1FFD7BAD005AB24E;
 			productRefGroup = 3BF8D3641FFD7BAD005AB24E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3BE75C6F1FFE0C4E009B3DC2 /* Products */;
-					ProjectRef = 3BE75C6E1FFE0C4E009B3DC2 /* WatchKitColors.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				3BF8D3621FFD7BAD005AB24E /* WatchKitColorsExample */,
@@ -302,16 +290,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3BE75C731FFE0C4E009B3DC2 /* WatchKitColors.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = WatchKitColors.framework;
-			remoteRef = 3BE75C721FFE0C4E009B3DC2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3BF8D3611FFD7BAD005AB24E /* Resources */ = {
@@ -343,6 +321,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		385246D16E76E296D05B4A1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchKitColorsExample WatchKit Extension/Pods-WatchKitColorsExample WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C86F08301D0A7C8273F9E6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WatchKitColorsExample WatchKit Extension/Pods-WatchKitColorsExample WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WatchKitColors/WatchKitColors.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WatchKitColors.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchKitColorsExample WatchKit Extension/Pods-WatchKitColorsExample WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9CBCC605B9E70803EFBDFE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchKitColorsExample WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BF8D35F1FFD7BAD005AB24E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -365,11 +397,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3BE75C761FFE0C74009B3DC2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WatchKitColors;
-			targetProxy = 3BE75C751FFE0C74009B3DC2 /* PBXContainerItemProxy */;
-		};
 		3BF8D3781FFD7BAE005AB24E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3BF8D3741FFD7BAE005AB24E /* WatchKitColorsExample WatchKit App */;
@@ -519,6 +546,7 @@
 		};
 		3BF8D3931FFD7BAE005AB24E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFD4BE022AAF455448670CE /* Pods-WatchKitColorsExample WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +565,7 @@
 		};
 		3BF8D3941FFD7BAE005AB24E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B17DD62DE708BB8AF672D30 /* Pods-WatchKitColorsExample WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
