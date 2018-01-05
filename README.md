@@ -1,4 +1,5 @@
 # UIColor-WatchKitColors
+[![CocoaPods Compatible](https://img.shields.io/badge/Cocoapod-Compatible-brightgreen.svg?style=flat)](https://cocoapods.org)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 UIColor extension to provide the colors specified in the Apple Watch Design Guides at https://developer.apple.com/watch/human-interface-guidelines/resources/
